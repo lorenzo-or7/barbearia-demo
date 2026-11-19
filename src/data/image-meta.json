@@ -1,0 +1,142 @@
+{
+  "hero": {
+    "w": 2000,
+    "h": 1333,
+    "source": "https://unsplash.com/photos/1503951914875-452162b0f3f1"
+  },
+  "hero-detail": {
+    "w": 2000,
+    "h": 3000,
+    "source": "https://unsplash.com/photos/1599011176306-4a96f1516d4d"
+  },
+  "hero-mobile": {
+    "w": 2000,
+    "h": 2500,
+    "source": "https://unsplash.com/photos/1647140655214-e4a2d914971f"
+  },
+  "ritual-beard": {
+    "w": 2000,
+    "h": 3011,
+    "source": "https://unsplash.com/photos/1517832606299-7ae9b720a186"
+  },
+  "ritual-shave": {
+    "w": 2000,
+    "h": 1333,
+    "source": "https://unsplash.com/photos/1532710093739-9470acff878f"
+  },
+  "chair": {
+    "w": 2000,
+    "h": 2500,
+    "source": "https://unsplash.com/photos/1621645582931-d1d3e6564943"
+  },
+  "room": {
+    "w": 2000,
+    "h": 3000,
+    "source": "https://unsplash.com/photos/1536520002442-39764a41e987"
+  },
+  "brick-room": {
+    "w": 2000,
+    "h": 1328,
+    "source": "https://unsplash.com/photos/1585747860715-2ba37e788b70"
+  },
+  "lounge": {
+    "w": 2000,
+    "h": 2990,
+    "source": "https://unsplash.com/photos/1773904215697-e6c21fc27ac2"
+  },
+  "tools-wood": {
+    "w": 2000,
+    "h": 1333,
+    "source": "https://unsplash.com/photos/1675599193741-e6f078a65fbd"
+  },
+  "g-beard-profile": {
+    "w": 2000,
+    "h": 3000,
+    "source": "https://unsplash.com/photos/1630827020718-3433092696e7"
+  },
+  "g-fade-line": {
+    "w": 2000,
+    "h": 2667,
+    "source": "https://unsplash.com/photos/1568339434343-2a640a1a9946"
+  },
+  "g-textured": {
+    "w": 2000,
+    "h": 3000,
+    "source": "https://unsplash.com/photos/1599834562135-b6fc90e642ca"
+  },
+  "g-pompadour": {
+    "w": 2000,
+    "h": 2996,
+    "source": "https://unsplash.com/photos/1562004760-aceed7bb0fe3"
+  },
+  "g-classic": {
+    "w": 2000,
+    "h": 3000,
+    "source": "https://unsplash.com/photos/1582771498000-8ad44e6c84db"
+  },
+  "g-skin-fade": {
+    "w": 2000,
+    "h": 1333,
+    "source": "https://unsplash.com/photos/1593702275687-f8b402bf1fb5"
+  },
+  "g-lineup": {
+    "w": 2000,
+    "h": 3022,
+    "source": "https://unsplash.com/photos/1788328155052-e02abe9ba983"
+  },
+  "g-buzz": {
+    "w": 2000,
+    "h": 2667,
+    "source": "https://unsplash.com/photos/1772442088712-df1780cbb709"
+  },
+  "g-scissor": {
+    "w": 2000,
+    "h": 3000,
+    "source": "https://unsplash.com/photos/1657105052497-f996284ffff8"
+  },
+  "team-1": {
+    "w": 2000,
+    "h": 3000,
+    "source": "https://unsplash.com/photos/1614010966237-74489a16848b"
+  },
+  "team-2": {
+    "w": 2000,
+    "h": 2796,
+    "source": "https://unsplash.com/photos/1658797508731-cf8961a3b414"
+  },
+  "team-3": {
+    "w": 2000,
+    "h": 2718,
+    "source": "https://unsplash.com/photos/1658797126061-200e0f8aa2dc"
+  },
+  "svc-cut": {
+    "w": 2000,
+    "h": 3000,
+    "source": "https://unsplash.com/photos/1783908688260-0c47404926f3"
+  },
+  "svc-beard": {
+    "w": 2000,
+    "h": 1330,
+    "source": "https://unsplash.com/photos/1761148438883-e34e0289a214"
+  },
+  "svc-clipper": {
+    "w": 2000,
+    "h": 3000,
+    "source": "https://unsplash.com/photos/1648221122323-572c13a31663"
+  },
+  "svc-towel": {
+    "w": 2000,
+    "h": 3000,
+    "source": "https://unsplash.com/photos/1653875700329-a7c8aca94c95"
+  },
+  "exp-care": {
+    "w": 2000,
+    "h": 3000,
+    "source": "https://unsplash.com/photos/1733995471058-3d6ff2013de3"
+  },
+  "exp-barber": {
+    "w": 2000,
+    "h": 2500,
+    "source": "https://unsplash.com/photos/1553521041-d168abd31de3"
+  }
+}

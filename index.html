@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Ofício Barbearia — Protótipo Or7.dev</title>
+    <meta name="description" content="Protótipo demonstrativo Or7.dev de site para barbearias: catálogo de serviços, galeria, equipe, planos de assinatura e agendamento em seis etapas." />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#10100F" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Ofício Barbearia — Protótipo Or7.dev" />
+    <meta property="og:description" content="Seu estilo. Nossa assinatura. Protótipo demonstrativo de site para barbearias, desenvolvido por Or7.dev." />
+    <meta property="og:image" content="/barbearia-demo/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/barbearia-demo/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="/barbearia-demo/images/hero-1600.webp" imagesrcset="/barbearia-demo/images/hero-480.webp 480w, /barbearia-demo/images/hero-960.webp 960w, /barbearia-demo/images/hero-1600.webp 1600w" imagesizes="58vw" media="(min-width: 768px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="/barbearia-demo/images/hero-mobile-960.webp" imagesrcset="/barbearia-demo/images/hero-mobile-480.webp 480w, /barbearia-demo/images/hero-mobile-960.webp 960w" imagesizes="100vw" media="(max-width: 767px)" fetchpriority="high" />
+    <script>
+      // Aplica o tema salvo antes da primeira pintura (evita flash).
+      try {
+        var t = localStorage.getItem('oficio-theme')
+        if (t === 'light' || t === 'dark') {
+          document.documentElement.dataset.theme = t
+          document.documentElement.style.colorScheme = t
+          if (t === 'light') document.querySelector('meta[name="theme-color"]').setAttribute('content', '#F4F0E9')
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Este protótipo precisa de JavaScript para o agendamento interativo.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

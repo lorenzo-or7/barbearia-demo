@@ -1,0 +1,82 @@
+/*
+ * Tokens semânticos — Ofício (marca demonstrativa).
+ * Para outro cliente, troque as cores e fontes aqui; os componentes usam só os tokens.
+ * Contraste (WCAG AA) verificado para texto primário, secundário e acento sobre bg/surface.
+ */
+:root,
+:root[data-theme='dark'] {
+  --bg: #10100f;
+  --surface: #1b1a18;
+  --surface-2: #25231f;
+  --text: #f3efe7;
+  --text-2: #b5afa5;
+  --text-3: #8f897f;
+  --accent: #c3a47a;
+  --accent-strong: #d8bd96;
+  --on-accent: #10100f;
+  --border: #38342e;
+  --border-strong: #534d44;
+  --scrim: rgb(10 10 9 / 0.62);
+  --success: #9cc39a;
+  --danger: #f0a08c;
+  --shadow: 0 30px 80px -30px rgb(0 0 0 / 0.65);
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --bg: #f4f0e9;
+  --surface: #ffffff;
+  --surface-2: #eae3d8;
+  --text: #201d19;
+  --text-2: #696157;
+  --text-3: #6f675d;
+  --accent: #8c6441;
+  --accent-strong: #6f4e31;
+  --on-accent: #ffffff;
+  --border: #d8cfc2;
+  --border-strong: #b9ad9c;
+  --scrim: rgb(16 16 15 / 0.55);
+  --success: #3f6b3d;
+  --danger: #a3381f;
+  --shadow: 0 30px 70px -34px rgb(60 44 26 / 0.35);
+  color-scheme: light;
+}
+
+:root {
+  /* Superfícies que permanecem escuras nos dois temas (rodapé, CTA final, lightbox). */
+  --ink: #10100f;
+  --ink-2: #1b1a18;
+  --ink-text: #f3efe7;
+  --ink-text-2: #b5afa5;
+  --ink-accent: #c3a47a;
+  --ink-border: #38342e;
+
+  --font-serif: 'Instrument Serif', 'Times New Roman', serif;
+  --font-sans: 'DM Sans Variable', 'DM Sans', system-ui, sans-serif;
+
+  /* Escala tipográfica fluida (320 → 1600). */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --fs-lg: clamp(1.25rem, 1.1rem + 0.6vw, 1.625rem);
+  --fs-xl: clamp(1.75rem, 1.4rem + 1.4vw, 2.5rem);
+  --fs-2xl: clamp(2.25rem, 1.6rem + 2.8vw, 4rem);
+  --fs-3xl: clamp(2.75rem, 1.7rem + 4.6vw, 6rem);
+  --fs-display: clamp(3.25rem, 1.6rem + 7.4vw, 9.25rem);
+
+  --tracking-label: 0.16em;
+
+  --gutter: clamp(16px, 4vw, 56px);
+  --max: 1440px;
+  --section: clamp(88px, 7rem + 4vw, 184px);
+  --radius: 3px;
+  --radius-lg: 6px;
+  --nav-h: 72px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 160ms;
+  --dur: 320ms;
+  --dur-slow: 700ms;
+}
